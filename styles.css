@@ -86,6 +86,21 @@ a:hover {
   border-radius: 7px;
 }
 
+.header-end {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.github {
+  display: flex;
+  color: var(--secondary);
+}
+
+.github:hover {
+  color: var(--text);
+}
+
 .lang {
   font-size: 14px;
   color: var(--secondary);
@@ -105,7 +120,7 @@ a:hover {
 
 .hero {
   text-align: center;
-  padding: 36px 0 40px;
+  padding: 20px 0 20px;
 }
 
 .app-icon {
@@ -133,8 +148,20 @@ a:hover {
   display: flex;
   justify-content: center;
   gap: 12px;
-  margin-top: 32px;
+  align-items: center;
+  margin-top: 16px;
   flex-wrap: wrap;
+}
+
+.store-badge {
+  display: inline-flex;
+  margin-top: 32px;
+}
+
+.store-badge img {
+  display: block;
+  width: auto;
+  height: 44px;
 }
 
 .button {
@@ -163,7 +190,7 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 14px;
-  padding: 24px 0 36px;
+  padding: 24px 0 24px;
 }
 
 .feature {
@@ -277,7 +304,7 @@ a:hover {
 
 .site-footer {
   border-top: 1px solid var(--hairline);
-  padding: 24px 0 40px;
+  padding: 24px 0 20px;
   font-size: 13px;
   color: var(--secondary);
   display: flex;
